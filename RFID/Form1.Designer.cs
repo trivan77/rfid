@@ -193,6 +193,7 @@ namespace RFID
                // 
                // btnSua
                // 
+               this.btnSua.Enabled = false;
                this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.btnSua.Location = new System.Drawing.Point(256, 565);
                this.btnSua.Name = "btnSua";
@@ -200,11 +201,13 @@ namespace RFID
                this.btnSua.TabIndex = 55;
                this.btnSua.Text = "Sửa Thông Tin";
                this.btnSua.UseVisualStyleBackColor = true;
+               this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
                // 
                // txtNamC
                // 
                this.txtNamC.BackColor = System.Drawing.SystemColors.Control;
                this.txtNamC.BorderStyle = System.Windows.Forms.BorderStyle.None;
+               this.txtNamC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.txtNamC.Location = new System.Drawing.Point(359, 527);
                this.txtNamC.Name = "txtNamC";
                this.txtNamC.Size = new System.Drawing.Size(44, 13);
@@ -212,6 +215,7 @@ namespace RFID
                // 
                // btnXoa
                // 
+               this.btnXoa.Enabled = false;
                this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.btnXoa.Location = new System.Drawing.Point(406, 565);
                this.btnXoa.Name = "btnXoa";
@@ -219,6 +223,7 @@ namespace RFID
                this.btnXoa.TabIndex = 54;
                this.btnXoa.Text = "Xóa Thông Tin";
                this.btnXoa.UseVisualStyleBackColor = true;
+               this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
                // 
                // panel12
                // 
@@ -230,6 +235,7 @@ namespace RFID
                // 
                // btnDangKy
                // 
+               this.btnDangKy.Enabled = false;
                this.btnDangKy.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.btnDangKy.Location = new System.Drawing.Point(122, 565);
                this.btnDangKy.Name = "btnDangKy";
@@ -237,11 +243,13 @@ namespace RFID
                this.btnDangKy.TabIndex = 53;
                this.btnDangKy.Text = "Đăng Ký Thẻ";
                this.btnDangKy.UseVisualStyleBackColor = true;
+               this.btnDangKy.Click += new System.EventHandler(this.btnDangKy_Click);
                // 
                // txtThangC
                // 
                this.txtThangC.BackColor = System.Drawing.SystemColors.Control;
                this.txtThangC.BorderStyle = System.Windows.Forms.BorderStyle.None;
+               this.txtThangC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.txtThangC.Location = new System.Drawing.Point(291, 527);
                this.txtThangC.Name = "txtThangC";
                this.txtThangC.Size = new System.Drawing.Size(48, 13);
@@ -289,6 +297,7 @@ namespace RFID
                // 
                this.txtNgayC.BackColor = System.Drawing.SystemColors.Control;
                this.txtNgayC.BorderStyle = System.Windows.Forms.BorderStyle.None;
+               this.txtNgayC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.txtNgayC.Location = new System.Drawing.Point(222, 527);
                this.txtNgayC.Name = "txtNgayC";
                this.txtNgayC.Size = new System.Drawing.Size(48, 13);
@@ -316,6 +325,7 @@ namespace RFID
                // 
                this.txtNamS.BackColor = System.Drawing.SystemColors.Control;
                this.txtNamS.BorderStyle = System.Windows.Forms.BorderStyle.None;
+               this.txtNamS.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.txtNamS.Location = new System.Drawing.Point(360, 336);
                this.txtNamS.Name = "txtNamS";
                this.txtNamS.Size = new System.Drawing.Size(43, 13);
@@ -333,6 +343,7 @@ namespace RFID
                // 
                this.txtThangS.BackColor = System.Drawing.SystemColors.Control;
                this.txtThangS.BorderStyle = System.Windows.Forms.BorderStyle.None;
+               this.txtThangS.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.txtThangS.Location = new System.Drawing.Point(292, 336);
                this.txtThangS.Name = "txtThangS";
                this.txtThangS.Size = new System.Drawing.Size(47, 13);
@@ -350,6 +361,7 @@ namespace RFID
                // 
                this.txtDiaChi.BackColor = System.Drawing.SystemColors.Control;
                this.txtDiaChi.BorderStyle = System.Windows.Forms.BorderStyle.None;
+               this.txtDiaChi.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.txtDiaChi.Location = new System.Drawing.Point(221, 481);
                this.txtDiaChi.Name = "txtDiaChi";
                this.txtDiaChi.Size = new System.Drawing.Size(182, 13);
@@ -375,6 +387,7 @@ namespace RFID
                // 
                this.txtQueQuan.BackColor = System.Drawing.SystemColors.Control;
                this.txtQueQuan.BorderStyle = System.Windows.Forms.BorderStyle.None;
+               this.txtQueQuan.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.txtQueQuan.Location = new System.Drawing.Point(221, 434);
                this.txtQueQuan.Name = "txtQueQuan";
                this.txtQueQuan.Size = new System.Drawing.Size(182, 13);
@@ -384,6 +397,7 @@ namespace RFID
                // 
                this.txtSDT.BackColor = System.Drawing.SystemColors.Control;
                this.txtSDT.BorderStyle = System.Windows.Forms.BorderStyle.None;
+               this.txtSDT.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.txtSDT.Location = new System.Drawing.Point(221, 383);
                this.txtSDT.Name = "txtSDT";
                this.txtSDT.Size = new System.Drawing.Size(182, 13);
@@ -418,6 +432,7 @@ namespace RFID
                // 
                this.txtNgayS.BackColor = System.Drawing.SystemColors.Control;
                this.txtNgayS.BorderStyle = System.Windows.Forms.BorderStyle.None;
+               this.txtNgayS.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.txtNgayS.Location = new System.Drawing.Point(223, 336);
                this.txtNgayS.Name = "txtNgayS";
                this.txtNgayS.Size = new System.Drawing.Size(47, 13);
@@ -427,6 +442,7 @@ namespace RFID
                // 
                this.txtHoTen.BackColor = System.Drawing.SystemColors.Control;
                this.txtHoTen.BorderStyle = System.Windows.Forms.BorderStyle.None;
+               this.txtHoTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.txtHoTen.Location = new System.Drawing.Point(221, 289);
                this.txtHoTen.Name = "txtHoTen";
                this.txtHoTen.Size = new System.Drawing.Size(182, 13);
@@ -462,6 +478,7 @@ namespace RFID
                // 
                this.txtMaND.BackColor = System.Drawing.SystemColors.Control;
                this.txtMaND.BorderStyle = System.Windows.Forms.BorderStyle.None;
+               this.txtMaND.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.txtMaND.Location = new System.Drawing.Point(221, 242);
                this.txtMaND.Name = "txtMaND";
                this.txtMaND.Size = new System.Drawing.Size(182, 13);
@@ -531,10 +548,12 @@ namespace RFID
                // 
                this.txtMaThe.BackColor = System.Drawing.SystemColors.Control;
                this.txtMaThe.BorderStyle = System.Windows.Forms.BorderStyle.None;
+               this.txtMaThe.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.txtMaThe.Location = new System.Drawing.Point(221, 197);
                this.txtMaThe.Name = "txtMaThe";
                this.txtMaThe.Size = new System.Drawing.Size(182, 13);
                this.txtMaThe.TabIndex = 1;
+               this.txtMaThe.TextChanged += new System.EventHandler(this.txtMaThe_TextChanged);
                // 
                // label1
                // 
